@@ -1,0 +1,98 @@
+# encoding: utf-8
+# module _codecs_jp
+# from (built-in)
+# by generator 1.147
+# no doc
+# no imports
+
+# functions
+
+def getcodec(*args, **kwargs): # real signature unknown
+    pass
+
+# classes
+
+class __loader__(object):
+    """
+    Meta path import for built-in modules.
+    
+    All methods are either class or static methods to avoid the need to
+    instantiate the class.
+    """
+    @staticmethod
+    def create_module(spec): # reliably restored by inspect
+        """ Create a built-in module """
+        pass
+
+    @staticmethod
+    def exec_module(module): # reliably restored by inspect
+        """ Exec a built-in module """
+        pass
+
+    @classmethod
+    def find_spec(cls, *args, **kwargs): # real signature unknown
+        pass
+
+    @classmethod
+    def get_code(cls, *args, **kwargs): # real signature unknown
+        """ Return None as built-in modules do not have code objects. """
+        pass
+
+    @classmethod
+    def get_source(cls, *args, **kwargs): # real signature unknown
+        """ Return None as built-in modules do not have source code. """
+        pass
+
+    @classmethod
+    def is_package(cls, *args, **kwargs): # real signature unknown
+        """ Return False as built-in modules are never packages. """
+        pass
+
+    @classmethod
+    def load_module(cls, *args, **kwargs): # real signature unknown
+        """
+        Load the specified module into sys.modules and return it.
+        
+        This method is deprecated.  Use loader.exec_module() instead.
+        """
+        pass
+
+    def __init__(self, *args, **kwargs): # real signature unknown
+        pass
+
+    __weakref__ = property(lambda self: object(), lambda self, v: None, lambda self: None)  # default
+    """list of weak references to the object"""
+
+
+    _ORIGIN = 'built-in'
+    __dict__ = None # (!) real value is "mappingproxy({'__module__': '_frozen_importlib', '__firstlineno__': 974, '__doc__': 'Meta path import for built-in modules.\\n\\nAll methods are either class or static methods to avoid the need to\\ninstantiate the class.\\n\\n', '_ORIGIN': 'built-in', 'find_spec': <classmethod(<function BuiltinImporter.find_spec at 0x000002A9D8C5AB90>)>, 'create_module': <staticmethod(<function BuiltinImporter.create_module at 0x000002A9D8C5AC40>)>, 'exec_module': <staticmethod(<function BuiltinImporter.exec_module at 0x000002A9D8C5ACF0>)>, 'get_code': <classmethod(<function BuiltinImporter.get_code at 0x000002A9D8C5AE50>)>, 'get_source': <classmethod(<function BuiltinImporter.get_source at 0x000002A9D8C5AFB0>)>, 'is_package': <classmethod(<function BuiltinImporter.is_package at 0x000002A9D8C5B110>)>, 'load_module': <classmethod(<function _load_module_shim at 0x000002A9D8C59DD0>)>, '__static_attributes__': (), '__dict__': <attribute '__dict__' of 'BuiltinImporter' objects>, '__weakref__': <attribute '__weakref__' of 'BuiltinImporter' objects>})"
+    __firstlineno__ = 974
+    __static_attributes__ = ()
+
+
+# variables with complex values
+
+__map_cp932ext = None # (!) real value is '<capsule object "multibytecodec.map" at 0x000002A9DB2D31F0>'
+
+__map_jisx0208 = None # (!) real value is '<capsule object "multibytecodec.map" at 0x000002A9DB2D2C00>'
+
+__map_jisx0212 = None # (!) real value is '<capsule object "multibytecodec.map" at 0x000002A9DB2D2C50>'
+
+__map_jisx0213_1_bmp = None # (!) real value is '<capsule object "multibytecodec.map" at 0x000002A9DB2D2DE0>'
+
+__map_jisx0213_1_emp = None # (!) real value is '<capsule object "multibytecodec.map" at 0x000002A9DB2D3790>'
+
+__map_jisx0213_2_bmp = None # (!) real value is '<capsule object "multibytecodec.map" at 0x000002A9DB2D3B50>'
+
+__map_jisx0213_2_emp = None # (!) real value is '<capsule object "multibytecodec.map" at 0x000002A9DB2D3240>'
+
+__map_jisx0213_bmp = None # (!) real value is '<capsule object "multibytecodec.map" at 0x000002A9DB2D39C0>'
+
+__map_jisx0213_emp = None # (!) real value is '<capsule object "multibytecodec.map" at 0x000002A9DB2D2F20>'
+
+__map_jisx0213_pair = None # (!) real value is '<capsule object "multibytecodec.map" at 0x000002A9DB2D2F70>'
+
+__map_jisxcommon = None # (!) real value is '<capsule object "multibytecodec.map" at 0x000002A9DB2D2D90>'
+
+__spec__ = None # (!) real value is "ModuleSpec(name='_codecs_jp', loader=<class '_frozen_importlib.BuiltinImporter'>, origin='built-in')"
+
